@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { useState } from "react"
-import communityData from "../../data/Community.json"
-import "./Community.css"
+import communityData from "../../data/community.json";
+import "./Community.css";
 
 const JoinCommunity = () => {
   const [activeTab, setActiveTab] = useState("popular")
