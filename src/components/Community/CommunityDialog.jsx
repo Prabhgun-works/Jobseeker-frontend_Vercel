@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useNavigate } from "react-router-dom"
-import communityData from "../../data/Community.json"
+import communityData from "../../data/community.json"
 import "./Community.css"
 
        {/* useNavigate : Dynamic navigation based on data: */}
