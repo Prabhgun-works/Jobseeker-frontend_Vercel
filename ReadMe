@@ -1,0 +1,101 @@
+# JobSeeker Frontend
+
+## 🚀 Overview
+
+**JobSeeker Frontend** is a high-performance, production-ready web platform engineered for modern job seekers. Designed with scalability, responsiveness, and user-centric experience at its core, this application empowers users to take full control of their job search journey — from discovery to application tracking, community learning, and career upskilling.
+
+Built with **React 18** and **Vite**, and architected with a modular, component-based design system, the application offers a seamless UX with blazing-fast performance, mobile responsiveness, and extensible state management via the Context API.
+
+---
+
+## 🎯 Key Features
+
+- **🔍 Job Listings**  
+  Search, filter, and explore curated job opportunities with detailed views.
+
+- **📊 Application Tracker**  
+  Maintain a dynamic log of applications, manage statuses, and store personal notes per listing.
+
+- **🤝 Community Hub**  
+  Engage with fellow job seekers, share experiences, and collaborate on career growth via a built-in community interface.
+
+- **🎓 Curated Courses**  
+  Discover targeted resources and skill-building courses aligned with career objectives.
+
+- **🛡️ Authentication System**  
+  Sign up, log in, and manage secure user sessions using a custom-built auth layer (scalable for backend integration).
+
+- **📱 Responsive Design**  
+  Fully optimized for cross-device accessibility and performance.
+
+- **🎨 Modern UI/UX**  
+  Crafted using Tailwind CSS and CSS variables for consistent theming, with a minimal yet professional design aesthetic.
+
+---
+
+## 🗂️ Project Structure & File Purpose
+
+| File/Folder                        | Purpose |
+|-----------------------------------|---------|
+| `src/App.jsx`                     | Root application layout, route config, and global structure. |
+| `src/main.jsx`                    | React app bootstrap and DOM mount point. |
+| `src/context.jsx`                 | Global state management using Context API. |
+| `src/components/Navbar/`          | Authentication flows & persistent top nav. |
+| `src/components/Home/`            | Home dashboard and feed. |
+| `src/components/Jobs/`            | Job cards, search logic, and job views. |
+| `src/components/Applications/`    | Application tracker views and logic. |
+| `src/components/Community/`       | Community threads, user posts, and interaction UI. |
+| `src/components/Courses/`         | Display and explore learning resources. |
+| `src/components/Profile/`         | User profile management and settings. |
+| `src/data/*.json`                 | Static mock data (community, courses). |
+| `src/assets/`                     | Static media assets. |
+| `src/styles/variables.css`        | CSS variables and theme definitions. |
+| `src/App.css`                     | Global styles. |
+| `public/`                         | Static files for branding and metadata. |
+| `vite.config.js`                  | Vite bundler configuration. |
+| `tailwind.config.js`              | Tailwind utility and design configuration. |
+| `package.json`                    | Dependency and build script metadata. |
+
+---
+
+## 🌐 Example User Flow
+
+1. **User Onboarding:** Seamless sign-up and login with intuitive UI.
+2. **Job Exploration:** Real-time browsing of job cards and detail pages.
+3. **Application Tracking:** Add jobs to your tracker and update status live.
+4. **Community Engagement:** View and post in discussion threads.
+5. **Upskill:** Access courses aligned with current hiring demands.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React 18, Vite
+- **Styling:** Tailwind CSS, CSS Modules
+- **State Management:** Context API
+- **Routing:** React Router
+- **Build Tooling:** Vite (Fast Refresh, HMR)
+- **Auth UX:** Custom login/signup components (backend-agnostic)
+
+---
+
+## 📌 Future Scope
+
+- Integration with real-time backend (Firebase/Auth0/Node.js API)
+- Admin dashboard for job providers
+- Notifications and real-time updates
+- Full CRUD capabilities for applications and community content
+
+---
+
+## 🏁 Status
+
+✅ MVP Completed  
+🚀 Ready for backend/API integration  
+🛠️ Extensible for enterprise-grade deployment
+
+---
+
+## 👤 Author
+
+Built by [Prabhgun Singh](https://www.linkedin.com/in/prabhgun) — aspiring full-stack engineer with a passion for building user-first, scalable digital products.
